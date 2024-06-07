@@ -4,6 +4,7 @@ import Landing from "./pages/Landing";
 import Signup from "./pages/Signup";
 import OTP from "./pages/OTP";
 import Login from "./pages/Login";
+import Career from "./pages/Career";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/verifyotp" element={<OTP/>} />
         <Route path="/login" element={<Login />} />
+        <Route path="/career" element={<Career />} />
         <Route path="*" element={<Landing />} />
       </Routes>
     </Router>
