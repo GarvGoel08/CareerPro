@@ -10,9 +10,9 @@ Career Pro is a comprehensive platform designed to help users plan their long-te
 ### Features
 - **Landing Page**: A welcoming and informative landing page to introduce users to the platform.
 - **Signup and Login**: Secure authentication system to register new users and allow existing users to log in.
+- **Career Planning Tools**: Tools to help users set and track long-term career goals.
 
 ## Upcoming Features
-- **Career Planning Tools**: Tools to help users set and track long-term career goals.
 - **Study Plan Management**: Functionality to create and manage daily, weekly, and monthly study plans.
 - **Task Management**: Features to create, track, and manage tasks derived from study plans.
 
