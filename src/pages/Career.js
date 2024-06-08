@@ -23,6 +23,16 @@ export default function Career() {
   const currentDate = new Date();
   const baseURL = process.env.REACT_APP_BASE_URL;
 
+  useEffect(() => {
+    if (data.user && data.tokenExpiry) {
+      if (currentDate < new Date(data.tokenExpiry)) {
+        setIsAuthenticated(true);
+      } else {
+        setIsAuthenticated(false);
+      }
+    }
+  }, [data, currentDate]);
+
   // If user is authenticated, getCareerPlan from backend
   useEffect(() => {
     if (isAuthenticated) {
@@ -44,16 +54,6 @@ export default function Career() {
       getCareerPlan();
     }
   }, [isAuthenticated, baseURL]);
-
-  useEffect(() => {
-    if (data.user && data.tokenExpiry) {
-      if (currentDate < new Date(data.tokenExpiry)) {
-        setIsAuthenticated(true);
-      } else {
-        setIsAuthenticated(false);
-      }
-    }
-  }, [data, currentDate]);
   // POST: {{baseURL}}api/v1/career/getCareerPlan
   // Body: { career, classs, college }
   // Response: { steps: [{ title, description }] }

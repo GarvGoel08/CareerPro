@@ -15,7 +15,7 @@ export default function Landing() {
         <h2 className="text-3xl font-bold text-center text-gray-800 my-8">
           Our Features
         </h2>
-        <div className="flex flex-wrappy-8 my-8 gap-3 justify-center items-center box-border">
+        <div className="flex flex-row max-md:flex-col flex-wrappy-8 my-8 gap-3 justify-center items-center box-border">
           <FeatureCard
             title="Career Planner"
             points={[

@@ -13,11 +13,11 @@ export default function Hero() {
       <img
         src="./images/HeroIcon.jpeg"
         alt="CareerPro Logo"
-        className="w-40 h-40 mx-auto"
+        className="w-40 h-40 mx-auto max-md:w-28 max-md:h-28"
       />
-        <h1 className="text-5xl my-3 max-w-[900px] font-bold mt-4">Enhance Your career and achieve success with CareerPro</h1>
+        <h1 className="text-5xl my-3 max-w-[900px] font-bold mt-4 max-md:text-3xl">Enhance Your career and achieve success with CareerPro</h1>
         {/* Get Started Button */}
-        <button className="bg-tertiary-bg text-white px-8 py-2 my-2 rounded-full mt-4 hover:bg-hover-text transition ease-in-out duration-700">
+        <button className="max-md:text-xs bg-tertiary-bg text-white px-8 py-2 my-2 rounded-full mt-4 hover:bg-hover-text transition ease-in-out duration-700">
             Get Started
         </button>
     </div>
