@@ -3,9 +3,10 @@
 Career Pro is a comprehensive platform designed to help users plan their long-term career goals, create daily, weekly, and monthly study plans, and manage tasks associated with these plans. The platform also includes version control to track progress and updates.
 
 ## Current Version: 
-### V-0.2 (Development)
-- Added career planner which uses AI to plan several steps you need to follow to achieve your desired goals.
-- Also Added Career Saving features for logged in users. 
+### V-0.2.1 (Development)
+- Fixed Several Resposiveness Issues in Navbar and Hero Section
+- Fixed Flow of the website
+- Minor bug fixes
 
 ### Features
 - **Landing Page**: A welcoming and informative landing page to introduce users to the platform.
@@ -20,6 +21,7 @@ Career Pro is a comprehensive platform designed to help users plan their long-te
 ### V-0.2 (Development)
 - Added career planner which uses AI to plan several steps you need to follow to achieve your desired goals.
 - Also Added Career Saving features for logged in users
+
 ### V-0.1 (Development)
 - Added Landing Page, Signup and Login with Redux to store user data
 
